@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local user profile data (auto-created during play)
+data/player_profile.json
+
+# Local IDE configuration files
+.vscode/
+.idea/
