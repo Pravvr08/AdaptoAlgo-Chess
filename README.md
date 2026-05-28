@@ -171,7 +171,7 @@ Based on the player profile, the AI dynamically adjusts:
 | Adaptive  | 3±    | 10%±        | Changes based on you     |
 
 
-## Conclusion & Key Takeaways
+## Conclusion
 
 **AdaptoAlgo-Chess** is a highly successful demonstration of combining **classical game theory** with **real-time behavioral analytics** to create an engaging, personalized user experience. By merging lightweight graph-search with automated player profiling, the project provides a highly challenging, yet fair, chess opponent without the massive computational overhead of modern neural networks.
 
