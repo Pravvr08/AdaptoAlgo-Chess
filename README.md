@@ -28,8 +28,7 @@ ai_chess_bot/
 ├── ui/
 │   └── chess_ui.html        # Browser-based interactive chessboard
 │
-└── data/
-    └── player_profile.json  # Persistent player profile (auto-created)
+
 ```
 
 ## System Architecture
