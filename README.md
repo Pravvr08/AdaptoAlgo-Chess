@@ -26,8 +26,8 @@ ai_chess_bot/
 │   └── player_model.py      # Player profiling & learning system
 │
 ├── ui/
-│   └── chess_ui.html        # Browser-based interactive chessboard
-│
+    └── chess_ui.html        # Browser-based interactive chessboard
+
 
 ```
 
