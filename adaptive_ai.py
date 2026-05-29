@@ -1,18 +1,3 @@
-"""
-adaptive_ai.py - Adaptive AI Module.
-
-Dynamically adjusts the AI's behavior based on:
-  - The player's skill profile (aggression, mistake rate, etc.)
-  - Current game state (opening, middlegame, endgame)
-  - Match history (win streak, recent performance)
-
-Controls:
-  - Search depth (difficulty)
-  - Playing style (aggressive / defensive / balanced)
-  - Mistake simulation probability
-  - Aggression bias in evaluation
-"""
-
 import random
 import chess
 from player_model import PlayerProfile
