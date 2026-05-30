@@ -1,8 +1,3 @@
-"""
-board.py - Chess board management using python-chess library.
-Wraps python-chess for clean integration with the AI and UI layers.
-"""
-
 import chess
 import chess.pgn
 from typing import Optional, List, Tuple
