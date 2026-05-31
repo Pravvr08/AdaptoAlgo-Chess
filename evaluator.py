@@ -1,21 +1,6 @@
-"""
-evaluator.py - Chess position evaluation function.
-
-Evaluates positions using multiple strategic factors:
-  - Material balance
-  - Piece mobility
-  - King safety
-  - Center control
-  - Pawn structure
-  - Piece-square tables
-"""
-
 import chess
 from typing import Dict
 
-# -------------------------------------------------------------------
-# Piece Values (centipawns)
-# -------------------------------------------------------------------
 PIECE_VALUES: Dict[chess.PieceType, int] = {
     chess.PAWN:   100,
     chess.KNIGHT: 320,
@@ -24,11 +9,6 @@ PIECE_VALUES: Dict[chess.PieceType, int] = {
     chess.QUEEN:  900,
     chess.KING:   20000,
 }
-
-# -------------------------------------------------------------------
-# Piece-Square Tables
-# Positive = good square, Negative = bad square (from White's view)
-# -------------------------------------------------------------------
 
 PAWN_TABLE = [
      0,  0,  0,  0,  0,  0,  0,  0,
