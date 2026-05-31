@@ -1,9 +1,3 @@
-"""
-main.py - Command-line interface for AdaptoAlgo Chess.
-
-Run with: python main.py
-"""
-
 import sys
 import os
 import time
