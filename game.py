@@ -1,14 +1,3 @@
-"""
-game.py - Game Controller.
-
-Orchestrates all modules:
-  - ChessBoard (engine)
-  - AdaptiveAI (AI opponent)
-  - PlayerModeler (profile tracking)
-
-Provides a clean API for the UI layer.
-"""
-
 import chess
 import time
 from typing import Optional, Tuple, List
