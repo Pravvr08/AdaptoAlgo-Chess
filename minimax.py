@@ -1,13 +1,3 @@
-"""
-minimax.py - Minimax algorithm with alpha-beta pruning.
-
-Implements the core AI search:
-  - Iterative deepening for time management
-  - Alpha-beta pruning for efficiency
-  - Move ordering for better pruning
-  - Quiescence search to avoid horizon effect
-"""
-
 import chess
 import random
 import time
