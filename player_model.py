@@ -1,15 +1,3 @@
-"""
-player_model.py - Player Modeling System.
-
-Tracks player behavior across games and builds a structured profile:
-  - Aggression level (tendency to capture, attack, sacrifice)
-  - Mistake rate (blunders, inaccuracies per game)
-  - Preferred openings and piece preferences
-  - Average thinking time per move
-  - Strategic tendencies (positional vs tactical)
-  - Win/loss/draw record
-"""
-
 import json
 import os
 import chess
