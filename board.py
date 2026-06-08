@@ -44,7 +44,7 @@ class ChessBoard:
                 "move_number": self.board.fullmove_number,
                 "time_taken": time_taken,
                 "is_capture": self.board.is_capture(move),
-                "is_check": False,  # Will update after push
+                "is_check": False,  
             }
             self.board.push(move)
             move_data["is_check"] = self.board.is_check()
