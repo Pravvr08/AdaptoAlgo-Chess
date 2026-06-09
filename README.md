@@ -58,6 +58,7 @@ Open ```ui/chess_ui.html``` in any modern browser — no server required!
 - Full adaptive AI runs client-side in JavaScript
 
 
+
 * **No Server Needed**: Runs a fully ported version of the Python chess rules, minimax search, and adaptive AI directly inside the browser's JavaScript engine.
 * **How it Works Synchronously**: When you make a move, the browser's thread intercepts your interaction, calculates legal moves, performs the Negamax algorithm, updates the UI, and saves your profile to browser `localStorage` synchronously.
 
@@ -66,6 +67,7 @@ Open ```ui/chess_ui.html``` in any modern browser — no server required!
 
 
 ### 💻 2. CLI Mode (Terminal-Based Python)
+
 Run the game using Python directly from your terminal:
 ```bash
 python main.py
@@ -148,6 +150,7 @@ Based on the player profile, the AI dynamically adjusts:
 | Center control   | +15 per attacked center sq  |
 | Pawn structure   | Doubled/isolated penalties  |
 
+
 ### Minimax Search
 
 - **Algorithm**: Negamax with alpha-beta pruning
@@ -160,7 +163,7 @@ Based on the player profile, the AI dynamically adjusts:
 
 ## Difficulty Levels
 
-| Level     | Depth | Mistake Prob | Notes                    |
+| Level     | Depth | Mistake Prob | Notes                   |
 |-----------|-------|-------------|--------------------------|
 | Beginner  | 1     | 40%         | Often plays random moves |
 | Easy      | 2     | 20%         | Sees 2 moves ahead       |
