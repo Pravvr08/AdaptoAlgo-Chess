@@ -2,7 +2,7 @@ import sys
 import os
 import time
 
-# Force UTF-8 encoding for standard output (handles chess Unicode symbols on Windows terminal)
+# Force UTF-8 encoding for standard output (handles chess Unicode symbols onWindows terminal)
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
@@ -17,7 +17,7 @@ def print_board(game_state: dict, player_color: str):
     board_dict = game_state["board"]
     fen = game_state["fen"]
 
-    # Parse FEN board section for ordered display
+    # Parse FEN board section for ordereddisplay
     from board import ChessBoard
     import chess
 
