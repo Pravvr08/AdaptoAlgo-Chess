@@ -33,7 +33,7 @@ ai_chess_bot/
 
 ## System Architecture
 
-The codebase separates chess rules, strategic evaluation, game tree search, user behavior tracking, and front-end interaction:
+The codebase separates chess rules, strategic evaluation,game tree search, user behavior tracking, and front-end interaction:
 
 ```mermaid
 graph TD
