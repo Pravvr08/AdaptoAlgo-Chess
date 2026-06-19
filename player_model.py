@@ -14,7 +14,7 @@ class GameRecord:
     player_color: str     # 'white' or 'black'
     total_moves: int
     captures: int
-    mistakes: int         # Obvious blunders detected
+    mistakes: int         
     avg_move_time: float  # Average seconds per move
     opening_moves: List[str] = field(default_factory=list)  # First 5 moves UCI
     checks_given: int = 0
