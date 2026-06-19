@@ -83,9 +83,9 @@ class PlayerModeler:
         self.profile_path = profile_path
         self.profile = self._load_profile()
 
-    # ------------------------------------------------------------------
+    # ----------------------------------------------------------
     # Profile persistence
-    # ------------------------------------------------------------------
+    # ----------------------------------------------------------
 
     def _load_profile(self) -> PlayerProfile:
         """Load profile from disk, or create a fresh one."""
