@@ -62,7 +62,6 @@ Open ```ui/chess_ui.html``` in any modern browser — no server required!
 * **No Server Needed**: Runs a fully ported version of the Python chess rules, minimax search, and adaptive AI directly inside the browser's JavaScript engine.
 * **How it Works Synchronously**: When you make a move, the browser's thread intercepts your interaction, calculates legal moves, performs the Negamax algorithm, updates the UI, and saves your profile to browser `localStorage` synchronously.
 
-
 ---
 
 
