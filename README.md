@@ -107,6 +107,7 @@ This engine is **Classical Algorithmic AI** (Search and Heuristics),it relies on
 
 ---
 
+
 ## Real-Time Adaptation
 
 The engine adapts its difficulty and playstyle to match the user through **Exponential Moving Average (EMA)** statistics
