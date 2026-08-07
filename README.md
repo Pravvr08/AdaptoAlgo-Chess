@@ -65,7 +65,7 @@ Open ```ui/chess_ui.html``` in any modern browser — no server required!
 ---
 
 
-### 💻 2. CLI Mode (Terminal-Based Python)
+###  2. CLI Mode (Terminal-Based Python)
 
 Run the game using Python directly from your terminal:
 ```bash
@@ -160,6 +160,7 @@ Based on the player profile, the AI dynamically adjusts:
 - **Time limit**: 5 seconds per move (configurable)
 
 ---
+
 
 ## Difficulty Levels
 
