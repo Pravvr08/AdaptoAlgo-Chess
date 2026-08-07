@@ -122,7 +122,7 @@ After each game, the system updates a persistent `PlayerProfile`:
 | **Mistake rate** | Frequency of suspicious fast moves            |
 | **Avg move time**| Seconds per move (rolling average)            |
 | **Win rate**     | Wins / total games                            |
-| **Tactical tendency** | Checks given / total moves              |
+| **Tactical tendency** | Checks given / total moves               |
 
 All metrics use **Exponential Moving Average** (α=0.2), so recent games influence the profile more than old ones.
 
